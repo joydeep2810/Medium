@@ -1,67 +1,30 @@
-## 🚨 Tutorial
+# Medium Clone
 
-This repository contains the corresponding tutorial available on our YouTube channel, <a href="https://www.youtube.com/@CodeScrapperOfficial/videos" target="_blank"><b>Code Scrapper</b></a>.
+Welcome to the Medium Clone project! This is a full-stack application designed to replicate core features of Medium. It utilizes ReactJS for the frontend, NodeJS and Express for the backend, and PostgreSQL for the database.
 
-## <a name="introduction">🤖 Introduction</a>
+## Table of Contents
 
-Our Medium clone is a streamlined project blogging app designed to enhance productivity and earn money. It offers intuitive adding smooth blog interfaces, customizable boards for project tracking, and seamless integration capabilities to adapt to various workflows. Ideal for individuals and teams looking for an efficient way to organize tasks and projects.
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+- [Contributing](#contributing)
+- [License](#license)
 
-## <a name="tech-stack">Tech Stack</a>
+## Features
 
-- Next.js
-- Postgresql
-- NeonDB
-- TypeScript
-- Next-Auth
-- Drizzle ORM
-- Shadcn
-- Tailwind Css
+- **User Authentication and Authorization:** Secure login and registration with JWT-based authentication.
+- **Article Management:** Create, read, update, and delete articles.
+- **User Profiles:** View and manage user profiles and their articles.
+- **Commenting System:** Add and manage comments on articles.
+- **Liking System:** Like and unlike articles.
+- **Responsive Design:** Fully responsive interface for an optimal viewing experience on all devices.
 
-## <a name="quick-start">Integration and Installation Process</a>
+## Technologies
 
-Follow these steps to set up the project locally on your device.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/)
-- [Git](https://git-scm.com/)
-
-**Clone this Project**
-
-```bash
-git clone https://github.com/CodeScrapper1/medium-clone.git
-cd medium-clone
-```
-
-**Installation**
-
-Install dependencies using yarn:
-
-```bash
-yarn
-```
-
-**Set Up Environment Variables**
-
-Create a new file named `.env` in the root of your project and add the following content:
-
-```env
-
-GOOGLE_ID=
-GOOGLE_SECRET=
-
-DATABASE_URL=
-
-NEXT_PUBLIC_CLOUDINARY_NAME=
-NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET=
-NEXT_PUBLIC_URL=
-```
-
-**Running the Project using yarn**
-
-```bash
-yarn run dev
-```
+- **Frontend:** ReactJS
+- **Backend:** NodeJS, Express
+- **Database:** PostgreSQL
+- **Authentication:** JWT (JSON Web Tokens)
