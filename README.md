@@ -6,12 +6,7 @@ Welcome to the Medium Clone project! This is a full-stack application designed t
 
 - [Features](#features)
 - [Technologies](#technologies)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
